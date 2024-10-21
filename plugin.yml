@@ -1,0 +1,24 @@
+name: SimpleGamemode
+version: 1.0.0
+api: [5.0.0]
+main: KumaDev\SimpleGamemode\Main
+author: KumaDeveloper
+description: SimpleGamemode by KumaDev
+commands:
+  gma:
+    permission: gma.use
+  gms:
+    permission: gms.use
+  gmc:
+    permission: gmc.use
+  gmspc:
+    permission: gmspc.use
+permissions:
+  gma.use:
+    default: op
+  gms.use:
+    default: op
+  gmc.use:
+    default: op
+  gmspc.use:
+    default: op
